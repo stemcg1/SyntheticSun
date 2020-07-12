@@ -245,7 +245,6 @@ def es_waf_index_creation():
     print(r.json())
 
 def im_helping():
-    endpoint_attachment()
     waf_logging()
     cwa_ssm_parameter()
     es_apigw_index_creation()
